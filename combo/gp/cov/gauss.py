@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
 import numpy as np
 from scipy import spatial
+import pyximport
+pyximport.install()
 from ._src.enhance_gauss import grad_width64
 
 
